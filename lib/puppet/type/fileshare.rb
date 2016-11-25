@@ -32,8 +32,8 @@ Puppet::Type.newtype(:fileshare) do
 
     defaultto({
       "accessmask" => "2032127",
-      "sid" => [ 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ],
-      "username" => "Everyone",
+      "sid" => [ 1, 1, 0, 0, 0, 0, 0, 5, 11, 0, 0, 0 ],
+      "username" => "Authenticated Users",
     })
   end
 
